@@ -18,6 +18,6 @@ $ brew install prince
 ```
 _Optionally run `prince --help` to check if Prince is available._
 
-1. Run `yarn pdf` to generate `output.pdf` in root directory.
+2. Run `yarn pdf` to generate `output.pdf` in root directory.
 
 Control things like pagination, page spreads, page margins, etc. in `src/styles.css` with [Prince's Paged Media CSS rules](https://www.princexml.com/doc/paged/).
