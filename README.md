@@ -1,6 +1,6 @@
 # Generate PDFs from MDX (feat Razzle)
 
-## Write
+### Write
 
 1. `yarn start` to spin up the server
 2. edit `src/example.md`
