@@ -1,0 +1,16 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@page {
+  size: A4;
+  @bottom {
+    content: counter(page);
+  }
+}
+
+h1 {
+  break-before: page;
+}
