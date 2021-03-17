@@ -4,9 +4,10 @@
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
+    "build:css": "npx postcss src/styles.css -o build.css",
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js",
-    "pdf": "prince build.html --style=build.css -o output.pdf"
+    "pdf": "yarn build:css && prince build.html --style=build.css -o output.pdf"
   },
   "dependencies": {
     "@mdx-js/react": "^1.6.22",
