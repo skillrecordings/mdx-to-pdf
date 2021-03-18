@@ -76,7 +76,7 @@ Prince()
   .execute()
   .then(
     function () {
-      console.log('OK: done')
+      console.log('✅ PDF Saved')
     },
     function (error) {
       console.log('ERROR: ', error)
