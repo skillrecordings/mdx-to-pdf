@@ -41,6 +41,7 @@ export const renderApp = (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1">
       ${cssLinksFromAssets(assets, 'client')}
       <link rel="stylesheet" href="build.css">
+      <link rel="stylesheet" href="src/pdf-styles.css">
   </head>
   <body>
       <div id="root">${markup}</div>

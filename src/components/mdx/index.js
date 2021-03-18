@@ -1,4 +1,5 @@
 import CodeBlock from './code-block'
+import ChapterCover from './chapter-cover'
 
 const mdxComponents = {
   pre: (preProps) => {
@@ -11,6 +12,7 @@ const mdxComponents = {
       return <pre {...preProps} />
     }
   },
+  ChapterCover,
 }
 
 // lifted this from mdx-utils
