@@ -9,4 +9,6 @@ build
 public/static
 .env.*.local
 cache
+
 build.css
+build.html
