@@ -2,22 +2,19 @@
 
 ## Parnasia et silvas nomen Aeaciden dum exitus
 
-Lorem markdownum et exiguo in factum adopertaque sanguine signa te iura.
+Michellka markdownum et exiguo in factum adopertaque sanguine signa te iura.
 Contingere tremit ipsa inter, tamen acta metuam; fertur mens fit. Novantur geri
 transit. Fas bella sollicitare neque: Learchum concordare viros Ceycis illa, non
 cavae carebis. Sperabam timet Colchis femina aliquidque supremo tractaque
 adsonat frondes: vocem omnia mutare tamen.
 
 ```jsx
-import * as React from 'react
+import * as React from 'react'
 ```
 
 Evulsum incensaque sponte exegit divulsaque, mea castra, illi, factum, procul,
 et. Et lanigerosve fera maneant aderis; o!
 
-Suscipit turpis sem ligula molestie dictumst tristique integer, nullam euismod ante facilisi leo pellentesque. Cras suscipit taciti semper consequat ac felis accumsan viverra, lobortis nullam diam vehicula quisque dis nisl vulputate, ridiculus cubilia porttitor cursus lacinia hendrerit rutrum. 
-
-Venenatis ac nisl feugiat dignissim malesuada tortor massa, porttitor habitant netus proin faucibus sed pellentesque, rutrum nulla aliquam dis pulvinar montes.
 
 
 # Hunc scopuloque saltus
