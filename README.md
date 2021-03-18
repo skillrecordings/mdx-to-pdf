@@ -13,6 +13,8 @@ $ brew install prince
 2. edit `src/example.mdx`
 3. `output.pdf` gets generated on save
 
+[➤ Preview output.pdf](https://github.com/skillrecordings/mdx-to-pdf/blob/main/output.pdf)
+
 ### Styling PDF
 
 This example is using Tailwind. Format pages in PDF, add pagination, control page spreads, margins, background, etc. in `src/pdf-styles.css` with [Prince's Paged Media CSS rules](https://www.princexml.com/doc/paged/).
