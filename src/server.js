@@ -3,6 +3,7 @@ import React from 'react'
 import express from 'express'
 import {renderToString} from 'react-dom/server'
 import fs from 'fs'
+import Prince from 'prince'
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST)
 
@@ -39,6 +40,7 @@ export const renderApp = (req, res) => {
       <title>Welcome to Razzle</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       ${cssLinksFromAssets(assets, 'client')}
+      <link rel="stylesheet" href="build.css">
   </head>
   <body>
       <div id="root">${markup}</div>
@@ -66,5 +68,18 @@ fs.writeFile('build.html', expHtml, function (err) {
   if (err) return console.log(err)
   console.log('build.html saved')
 })
+
+Prince()
+  .inputs('build.html')
+  .output('output.pdf')
+  .execute()
+  .then(
+    function () {
+      console.log('OK: done')
+    },
+    function (error) {
+      console.log('ERROR: ', error)
+    }
+  )
 
 export default server

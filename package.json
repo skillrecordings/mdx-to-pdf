@@ -2,9 +2,10 @@
   "name": "razzle-examples-with-mdx",
   "version": "4.0.2",
   "scripts": {
-    "start": "razzle start",
+    "start": "yarn build:css && razzle start",
     "build": "razzle build",
     "build:css": "npx postcss src/styles.css -o build.css",
+    "watch:css": "npx postcss src/styles.css -p build.css --verbose -w",
     "test": "razzle test --env=jsdom",
     "start:prod": "NODE_ENV=production node build/server.js",
     "pdf": "yarn build:css && prince build.html --style=build.css -o output.pdf"
@@ -15,6 +16,7 @@
     "autoprefixer": "^10.2.5",
     "express": "^4.17.1",
     "postcss": "^8.2.8",
+    "prince": "^1.8.6",
     "prism-react-renderer": "^1.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
